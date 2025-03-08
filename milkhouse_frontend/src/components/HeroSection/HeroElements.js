@@ -66,7 +66,7 @@ export const HeroH1 = styled.h1`
 export const HeroP = styled.h2`
     font-size: 2.2rem;
     font-weight: 600;
-    color: #fff;
+    color: black;
     text-align: center; 
     max-width: 600px;
 

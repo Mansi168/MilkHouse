@@ -7,6 +7,7 @@ import Testimonial from '../components/Testimonial';
 import Features from '../components/Features';
 import InfoSection from '../components/InfoSection';
 import Services from '../components/ServicesSection';
+import AppPromoSection from '../components/AppPromoSection/AppPromoSection';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,7 @@ const Home = () => {
             <Services/>
             <Features/>
             {/* <Testimonial/> */}
+            <AppPromoSection/>
             <Footer/>
         </>
     )

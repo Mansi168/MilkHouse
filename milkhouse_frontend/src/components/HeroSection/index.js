@@ -40,7 +40,7 @@ const HeroSection = () => {
     <>
       <Container
         maxWidth="xl"
-        sx={{ background: "linear-gradient(45deg, #000000 30%, #FF8E53 90%)" }}
+        sx={{ background: "linear-gradient(45deg, #ffffff 30%, rgb(50, 205, 50) 90%" }}
       >
         <Grid container alignItems="center">
           <Grid
@@ -52,9 +52,16 @@ const HeroSection = () => {
           >
             <HeroContainer>
               <HeroContent>
-                <HeroP>
-                  {t('welcome')}
-                </HeroP>
+              <HeroP>
+                {t('welcome')
+                  .split('\n')
+                  .map((line, index) => (
+                    <React.Fragment key={index}>
+                      {line}
+                      <br />
+                    </React.Fragment>
+                  ))}
+              </HeroP>
                 {/* {LeftSubSectionJSX} */}
                 <HeroBtnWrapper>
                   <Button

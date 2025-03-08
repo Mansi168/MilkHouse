@@ -5,7 +5,7 @@ ul {
 
 a {
   /* text-decoration: none; */
-  color: white;
+  color: rgb(61, 26, 7);
   font-size: 18px;
   /* font-size: 17px; */
   line-height: 30px;
@@ -14,7 +14,7 @@ a {
 
 /* navbar */
 .navbar {
-  background: linear-gradient(45deg, #000000 30%, rgb(162 91 54) 90%);
+  background:rgb(47, 141, 47);
   /* box-shadow: 0 3px 5px 2px rgb(162 91 54); */
   padding: 10px 20px;
   display: flex;
@@ -34,7 +34,7 @@ a {
   text-align: left;
 }
 .logo:hover {
-  color: #f7bd00;
+  color: #88e388;
 }
 
 /* ul  */
@@ -100,7 +100,7 @@ a {
     margin: 16px 0;
   }
   .navMenu li:hover .navLink {
-    color: #f7bd00;
+    color: #88e388;
   }
 }
 .navimg {

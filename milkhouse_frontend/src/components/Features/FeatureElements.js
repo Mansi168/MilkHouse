@@ -17,7 +17,7 @@ export const Containertitle = styled.h1`
     position: relative;
     margin-bottom: 50px;
     margin-top: 50px;
-    font-size: 65px;
+    font-size: 45px;
     font-weight: 600;
 `;
 export const FeaturesCard = styled.div`

@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 
 export const Button = styled(Link)`
     border-radius: 30px;
-    background: linear-gradient(45deg, #000000 30%, rgb(162 91 54) 90%);
+    background: linear-gradient(45deg, #ffffff 30%, rgb(162 91 54) 90%);
     white-space: nowrap;
     padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
     font-size: 18px;
@@ -20,7 +20,7 @@ export const Button = styled(Link)`
 
     &:hover {
         color:#000;
-        border: 2px solid #000; 
-        background: #f7bd00;
+        // border: 2px solid #000; 
+        background:rgb(224, 202, 183);
     }
 `
